@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_1_svgrepo_com"/>
+
+    <item
+        android:id="@+id/movies"
+        android:title="Movies"
+        android:icon="@drawable/movieeee"/>
+
+    <item
+        android:id="@+id/coming_soon"
+        android:title="Coming Soon"
+        android:icon="@drawable/soon"/>
+
+    <item
+        android:id="@+id/my_bookings"
+        android:title="My Bookings"
+        android:icon="@drawable/booking"/>
+
+    <item
+        android:id="@+id/notification"
+        android:title="Notification"
+        android:icon="@drawable/notiy"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:title="Login"
+                android:icon="@drawable/login_2_svgrepo_com"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/communicate"
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share_1_svgrepo_com"/>
+            <item
+                android:id="@+id/rate_us"
+                android:title="Rate Us"
+                android:icon="@drawable/rate_rating_survey_7_svgrepo_com"/>
+        </menu>
+    </item>
+
+</menu>
